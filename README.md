@@ -1,54 +1,65 @@
-# React + TypeScript + Vite
+# 🛒 Carrinho de Compras
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+![Captura de tela 2025-04-24 094100](https://github.com/user-attachments/assets/214f77bc-6a1e-4701-ad30-a0d90965bbf3)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Projeto simples de carrinho de compras desenvolvido com **ReactJS** e **Vite**. Consiste em uma página inicial com listagem de produtos, onde é possível adicionar itens ao carrinho e visualizar os produtos adicionados em uma página separada.
 
-## Expanding the ESLint configuration
+## ✨ Funcionalidades
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- Listagem de produtos (consumidos via `json-server`)
+- Adicionar e remover produtos do carrinho
+- Visualização do carrinho com todos os itens selecionados
+- Gerenciamento de estado global com **Context API**
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## 🧪 Tecnologias
+
+- [ReactJS](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [Context API](https://reactjs.org/docs/context.html)
+- [json-server](https://github.com/typicode/json-server)
+
+## 🚀 Instalação e Execução
+
+1. **Clone o repositório:**
+
+```bash
+git clone https://github.com/luanraffaell/devPetCart.git
+cd devPetCart
 ```
+2. **Instale as dependências:**
+```bash
+npm install
+```
+3. **Inicie o json-server:**
+```bash
+json-server --watch db.json --port 3000
+```
+4. **Inicie a aplicação:**
+```bash
+npm run dev
+```
+Acesse no navegador: `http://localhost:5173`
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+**🧩 Exemplo de `db.json`**
+```json
+{
+    "products": [
+        {
+            "id": 1,
+            "brand": "Premier Pet",
+            "title": "Ração Premier Fórmula para Cães Adultos",
+            "description": "Indicadas para cães sênior, envelhecimento saudável, suporte diferenciado para ossos e articulações, saúde renal e digestiva, saúde do sistema imunológico e saúde do sistema cardiovascular.",
+            "price": 150.00,
+            "cover": "https://premierpet.com.br/wp-content/uploads/2022/10/racao-premier-formula-caes-senior-porte-grande-gigante-frango.png"
+        },
+        {
+            "id": 2,
+            "brand": "Royal Canin",
+            "title": "Ração Royal Canin Maxi para cães adultos",
+            "description": "Ração Royal Canin Maxi para cães adultos, com 25 kg, 15 kg e 10 kg.",
+            "price": 319.00,
+            "cover": "https://m.media-amazon.com/images/I/51XQFG1VUYL._AC_SL1200_.jpg"
+        }]
+}
 ```
