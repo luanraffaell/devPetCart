@@ -1,0 +1,124 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "brand": "Premier Pet",
+            "title": "Ração Premier Fórmula para Cães Adultos",
+            "description": "Indicadas para cães sênior, envelhecimento saudável, suporte diferenciado para ossos e articulações, saúde renal e digestiva, saúde do sistema imunológico e saúde do sistema cardiovascular.",
+            "price": 150.00,
+            "cover": "https://premierpet.com.br/wp-content/uploads/2022/10/racao-premier-formula-caes-senior-porte-grande-gigante-frango.png"
+        },
+        {
+            "id": 2,
+            "brand": "Royal Canin",
+            "title": "Ração Royal Canin Maxi para cães adultos",
+            "description": "Ração Royal Canin Maxi para cães adultos, com 25 kg, 15 kg e 10 kg.",
+            "price": 319.00,
+            "cover": "https://m.media-amazon.com/images/I/51XQFG1VUYL._AC_SL1200_.jpg"
+        },
+        {
+            "id": 3,
+            "brand": "Premier Pet",
+            "title": "Ração úmida Premier Orgânico para Cães Adultos",
+            "description": "Água, carne de avez orgânicas (frango - 37%), sementes de chia orgânicas e quinoa orgânica.",
+            "price": 8.99,
+            "cover": "https://premierpet.com.br/wp-content/uploads/2022/10/sache-premier-organico-caes-adultos-porte-pequeno-frango-chia-quinoa.png"
+        },
+        {
+            "id": 4,
+            "brand": "Premier Pet",
+            "title": "Ração Golden Special para Cães Adultos",
+            "description": "Ração seca para cães adultos de porte médio e grande. Oferece nutrição equilibrada com proteínas de alta qualidade.",
+            "price": 129.90,
+            "cover": "https://m.media-amazon.com/images/I/61krIHXdNGS._AC_SL1000_.jpg"
+        },
+        {
+            "id": 5,
+            "brand": "Pedigree",
+            "title": "Ração Pedigree Carne e Vegetais",
+            "description": "Ração completa e balanceada para cães adultos com carne e vegetais. Fortalece dentes e ossos.",
+            "price": 89.90,
+            "cover": "https://m.media-amazon.com/images/I/81JvVQ0mB5L._AC_SL1500_.jpg"
+        },
+        {
+            "id": 6,
+            "brand": "Quatree pet",
+            "title": "Ração Quatree Life para Cães Filhotes",
+            "description": "Com ingredientes naturais, sem corantes e conservantes artificiais, ideal para filhotes em crescimento.",
+            "price": 269.00,
+            "cover": "https://m.media-amazon.com/images/I/51uj9mHEuPL._AC_SL1000_.jpg"
+        },
+        {
+            "id": 7,
+            "brand": "GranPlus",
+            "title": "Ração GranPlus Menu Mini Bits Frango e Arroz",
+            "description": "Especialmente formulada para cães de pequeno porte, com pedaços pequenos e fáceis de mastigar.",
+            "price": 92.50,
+            "cover": "https://m.media-amazon.com/images/I/61ErHvqtZxL._AC_SL1500_.jpg"
+        },
+        {
+            "id": 8,
+            "brand": "Biofresh",
+            "title": "Ração Biofresh para Cães Adultos Raças Pequenas",
+            "description": "Com ingredientes frescos como frutas, vegetais e carnes nobres, sem conservantes artificiais.",
+            "price": 198.75,
+            "cover": "https://m.media-amazon.com/images/I/51uPmygpluL._AC_SL1000_.jpg"
+        },
+        {
+            "id": 9,
+            "brand": "Optimum",
+            "title": "Ração Natural Dog para Cães Adultos",
+            "description": "Produzida com ingredientes naturais, sem corantes artificiais e com proteína de frango.",
+            "price": 139.00,
+            "cover": "https://hubii.vtexassets.com/arquivos/ids/183618/7896029038574_00.png?v=638594160035800000"
+        },
+        {
+            "id": 10,
+            "brand": "Magnus",
+            "title": "Ração Magnus Todo Dia Carne",
+            "description": "Com vitaminas e minerais essenciais para o dia a dia do seu cão, com sabor carne.",
+            "price": 75.00,
+            "cover": "https://m.media-amazon.com/images/I/51kVlfPEZnL._AC_.jpg"
+        },
+        {
+            "id": 11,
+            "brand": "Guabi",
+            "title": "Ração Guabi Natural para Cães Filhotes",
+            "description": "Alimento natural para cães filhotes com proteína animal de alta qualidade e grãos integrais.",
+            "price": 132.40,
+            "cover": "https://m.media-amazon.com/images/I/61M9khMmqsL._AC_SL1500_.jpg"
+        },
+        {
+            "id": 12,
+            "brand": "Dog Chow",
+            "title": "Ração Dog Chow Adulto Raças Médias e Grandes",
+            "description": "Alimento balanceado com proteínas, vitaminas e fibras, promovendo digestão saudável.",
+            "price": 110.00,
+            "cover": "https://m.media-amazon.com/images/I/51dCjdXe9aL._AC_SL1000_.jpg"
+        },
+        {
+            "id": 13,
+            "brand": "Hill`s Pet",
+            "title": "Ração Hill's Science Diet para Cães Pequenos",
+            "description": "Ração super premium desenvolvida por veterinários para cães de pequeno porte.",
+            "price": 519.00,
+            "cover": "https://m.media-amazon.com/images/I/61glQacE48L._AC_SL1000_.jpg"
+        },
+        {
+            "id": 14,
+            "brand": "N&D",
+            "title": "Ração N&D Ancestral Grain Cordeiro para Cães",
+            "description": "Alimento com baixo índice glicêmico, com cordeiro, espelta, aveia e blueberry.",
+            "price": 338.90,
+            "cover": "https://m.media-amazon.com/images/I/613bhPJgFML._AC_SL1000_.jpg"
+        },
+        {
+            "id": 15,
+            "brand": "Special Dog",
+            "title": "Ração Special Dog Prime para Cães Adultos",
+            "description": "Com níveis ideais de proteínas e fibras, proporciona mais saúde e vitalidade para o seu cão.",
+            "price": 125.00,
+            "cover": "https://m.media-amazon.com/images/I/61rc8oKwL6L._AC_SL1100_.jpg"
+        }
+    ]
+}
